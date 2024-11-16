@@ -1,4 +1,6 @@
 import { useState } from 'react'
+import './assets/css/main.css'
+import './assets/css/utility.css'
 
 import React from 'react'
 

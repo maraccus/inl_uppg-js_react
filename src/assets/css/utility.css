@@ -1,0 +1,153 @@
+:root {
+    --color-dark: #0B0F19;
+    --color-primary: #6366F1;
+    --color-primary-hover: #8789ff;
+    --color-gray: #9397AD;
+    --color-white: #FFFFFF;
+    --color-success: #22C55E;
+    --color-success-hover: #4ae683;
+
+    --text-body-m: 16px;
+    --color-gray-900: #0B0F19;
+
+    --container-padding: 1rem;
+    --transition-time: all 0.2s;
+
+    --page-width: 1296px;
+}
+
+.flex-center-v {
+    display: flex;
+    align-items: center;
+}
+
+.flex-h {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.flex-center-h {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-sb {
+    
+    justify-content: space-between;
+}
+
+.btn {
+    background-color: transparent;
+    border: 0;
+    text-align: center;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.element-center {
+    margin: 0 auto;
+}
+
+.btn-primary {
+    background-color: var(--color-primary);
+    width: 8em;
+    height: 2.5em;
+    border-radius: .2rem;
+    color: #fff;
+}
+
+.btn-primary-t {
+    width: 8em;
+    height: 2.5em;
+    border-radius: .2rem;
+    color: var(--color-primary);
+}
+
+.btn-primary-t:hover {
+    color: var(--color-primary-hover);
+}
+
+.btn-primary-t-green {
+    width: 8em;
+    height: 2.5em;
+    border-radius: .2rem;
+    color: var(--color-success);
+}
+
+.btn-primary-t-green:hover {
+    color: var(--color-success-hover);
+}
+
+.container {
+
+    margin: 0 auto;
+    width: var(--page-width);
+    /* background-color: lightcoral; */
+}
+
+.text-center {
+    text-align: center;
+}
+
+.spacer-t {
+    padding-top: 6rem;
+}
+
+.spacer-t1 {
+    padding-top: 1rem;
+}
+
+.spacer-t2 {
+    padding-top: 2rem;
+}
+
+.spacer-t3 {
+    padding-top: 3rem;
+}
+
+.spacer-t4 {
+    padding-top: 4rem;
+}
+
+.spacer-t5 {
+    padding-top: 5rem;
+}
+
+.spacer-b {
+    padding-bottom: 6rem
+}
+
+.hero-top {
+    padding-top: 7rem;
+}
+
+.bg-light {
+
+    background-color: #ffffff06;
+}
+
+.clr-primary {
+    color: var(--color-primary);
+}
+
+.btn-align-left {
+    text-align: left;
+}
+
+.p-s {
+    font-size: 14px;
+    line-height: 160%;
+}
+
+.p-l {
+    font-size: 18px;
+    line-height: 160%;
+}
