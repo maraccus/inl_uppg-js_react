@@ -6,7 +6,7 @@ const footer = () => {
     <footer className="container">
         <div className="section-newsletter bg-light">
             <div className="section-newsletter-text flex-h flex-sb">
-                <img src="assets/bell.png" alt="" />
+                <img src="./images/bell.png" alt="" />
                 <h4>Subscribe to our newsletter to stay <br/>informed about latest updates</h4>
             </div>
             <div className="section-newsletter-box">

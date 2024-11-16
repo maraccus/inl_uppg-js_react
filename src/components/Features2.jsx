@@ -23,23 +23,23 @@ const Features2 = () => {
                 <button className="btn btn-primary">Learn more <i className="fa-solid fa-arrow-right button-icon-r"></i></button>
             </div>
             
-            <img src="assets/features2-1.png" alt="" />
+            <img src="./images/features2-1.png" alt="" />
 
         </div>
 
         <div className="section-features2-section spacer-t">
             
-            <img src="assets/features2-2.png" alt="" />
+            <img src="./images/features2-2.png" alt="" />
 
             <div className="features-card spacer-t4">
                 <h2>Receive payment from international bank details</h2>
                 <div className="flex-h spacer-t1">
                     <div className="card-v">
-                        <img src="assets/features-icn-easypayments.png" alt="" />
+                        <img src="./images/features-icn-easypayments.png" alt="" />
                         <p className="spacer-t1">Manage your payments online. Mollis congue egestas egestas fermentum fames.</p>
                     </div>
                     <div className="card-v">
-                        <img src="assets/features-icn-cashback.png" alt="" />
+                        <img src="./images/features-icn-cashback.png" alt="" />
                         <p className="spacer-t1">A elementur and imperdiet enim, pretium etiam facilisi aenean quam mauris..</p>
                     </div>
                 </div>

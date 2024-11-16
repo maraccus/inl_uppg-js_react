@@ -1,4 +1,5 @@
 import React from 'react'
+import ImageLogo from '../assets/images/nav-logo.svg'
 
 const Header = () => {
   return (
@@ -12,7 +13,7 @@ const Header = () => {
                 <nav>
                     <div className="navbar">
                         <div className="navbar-left flex-center-v">
-                            <a href="#"><img src="assets/nav-logo.svg" alt="" /></a>
+                            <a href="#"><img src={ImageLogo} alt="" /></a>
                             <a href="#" className="navbar-text">Features</a>
                         </div>
                         <div className="navbar-right flex-center-v">
@@ -38,8 +39,8 @@ const Header = () => {
                                     Save, spend & manage money in your pocket.</p>
                             </div>
                             <div className="market-btns">
-                                <img className="storebutton" src="assets/appstore.svg" alt="" />
-                                <img className="storebutton googleplay" src="assets/googleplay.svg" alt="" />
+                                <img className="storebutton" src="./images/appstore.svg" alt="" />
+                                <img className="storebutton googleplay" src="./images/googleplay.svg" alt="" />
                             </div>
                         </div>
 
@@ -51,7 +52,7 @@ const Header = () => {
                     </div>
 
                     <div className="section-hero-img">
-                        <img src="assets/header-phones.png" alt="" />
+                        <img src="./images/header-phones.png" alt="" />
                     </div>
 
                 </div>

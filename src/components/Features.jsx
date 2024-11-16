@@ -3,7 +3,7 @@ import React from 'react'
 const Features = () => {
   return (
     <div className="section-features container spacer-t flex-h spacer-b">
-        <img className="feature-img" src="assets/features-phone.png" alt="" />
+        <img className="feature-img" src="./images/features-phone.png" alt="" />
         <div className="section-features-content">
             <div className="heading">
                 <h2>App Features</h2>
@@ -13,7 +13,7 @@ const Features = () => {
 
                 <div className="card">
                     <div className="card-icon">
-                        <img src="assets/features-icn-easypayments.png" alt="" />
+                        <img src="./images/features-icn-easypayments.png" alt="" />
                     </div>
                     <div className="card-text">
                         <h3>Easy Payments</h3>
@@ -23,7 +23,7 @@ const Features = () => {
 
                 <div className="card">
                     <div className="card-icon">
-                        <img src="assets/features-icn-datasecurity.png" alt="" />
+                        <img src="./images/features-icn-datasecurity.png" alt="" />
                     </div>
                     <div className="card-text">
                         <h3>Data Security</h3>
@@ -33,7 +33,7 @@ const Features = () => {
 
                 <div className="card">
                     <div className="card-icon">
-                        <img src="assets/features-icn-coststatistics.png" alt="" />
+                        <img src="./images/features-icn-coststatistics.png" alt="" />
                     </div>
                     <div className="card-text">
                         <h3>Cost Statistics</h3>
@@ -43,7 +43,7 @@ const Features = () => {
 
                 <div className="card">
                     <div className="card-icon">
-                        <img src="assets/features-icn-support.png" alt="" />
+                        <img src="./images/features-icn-support.png" alt="" />
                     </div>
                     <div className="card-text">
                         <h3>Support 24/7</h3>
@@ -53,7 +53,7 @@ const Features = () => {
 
                 <div className="card">
                     <div className="card-icon">
-                        <img src="assets/features-icn-cashback.png" alt="" />
+                        <img src="./images/features-icn-cashback.png" alt="" />
                     </div>
                     <div className="card-text">
                         <h3>Regular Cashback</h3>
@@ -63,7 +63,7 @@ const Features = () => {
 
                 <div className="card">
                     <div className="card-icon">
-                        <img src="assets/features-icn-topstandards.png" alt="" />
+                        <img src="./images/features-icn-topstandards.png" alt="" />
                     </div>
                     <div className="card-text">
                         <h3>Top Standards</h3>

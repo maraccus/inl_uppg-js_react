@@ -5,22 +5,22 @@ const Logos = () => {
     
     <div className="section-logos container spacer-t">
         <div className="logos">
-            <img src="assets/logo1.png" alt="" />
+            <img src="./images/logo1.png" alt="" />
         </div>
         <div className="logos">
-            <img src="assets/logo2.png" alt="" />
+            <img src="./images/logo2.png" alt="" />
         </div>
         <div className="logos">
-            <img src="assets/logo3.png" alt="" />
+            <img src="./images/logo3.png" alt="" />
         </div>
         <div className="logos">
-            <img src="assets/logo4.png" alt="" />
+            <img src="./images/logo4.png" alt="" />
         </div>
         <div className="logos">
-            <img src="assets/logo5.png" alt="" />
+            <img src="./images/logo5.png" alt="" />
         </div>
         <div className="logos">
-            <img src="assets/logo6.png" alt="" />
+            <img src="./images/logo6.png" alt="" />
         </div>
     </div>
 

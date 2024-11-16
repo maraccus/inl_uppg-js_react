@@ -9,12 +9,12 @@ const Faq = () => {
             <p className="p-l">Still have unanswered questions and need to get <br/>in touch?</p>
             <div className="flex-h flex-sb spacer-t2">
                 <div className="faq-card">
-                    <img src="assets/icn-phone.png" alt="" />
+                    <img src="./images/icn-phone.png" alt="" />
                     <p className="p-s">Still have questions?</p>
                     <button className="btn btn-primary-t btn-align-left">Learn more <i className="fa-solid fa-arrow-right button-icon-r"></i></button>
                 </div>
                 <div className="faq-card">
-                    <img src="assets/icn-message.png" alt="" />
+                    <img src="./images/icn-message.png" alt="" />
                     <p className="p-s">Don't like phone calls?</p>
                     <button className="btn btn-primary-t-green btn-align-left">Contact us <i className="fa-solid fa-arrow-right button-icon-r"></i></button>
                 </div>
