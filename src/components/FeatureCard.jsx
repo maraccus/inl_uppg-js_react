@@ -1,14 +1,14 @@
 import React from 'react'
 
-const FeatureCard = () => {
+const FeatureCard = ({item}) => {
   return (
     <div className="card">
         <div className="card-icon">
-            <img src="./images/features-icn-easypayments.png" alt="" />
+            <img src="{item.imageUrl}" alt="item.imageAlt" />
         </div>
         <div className="card-text">
-            <h3>Easy Payments</h3>
-            <p>Id mollis consectetur congue egestas egestas suspendisse blandit justo.</p>
+            <h3>{item.title}</h3>
+            <p>{item.text}</p>
         </div>
     </div>
   )

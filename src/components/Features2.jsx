@@ -1,6 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
+import Features2Card from './Features2Card'
 
 const Features2 = () => {
+
+    const [feature2Items, setFeature2Items] = useState([
+        { imageUrl: "./images/features-icn-easypayments.png", imageAlt: "Bild", text: "Manage your payments online. Mollis congue egestas egestas fermentum fames." },
+        { imageUrl: "./images/features-icn-cashback.png", imageAlt: "Bild", text: "A elementur and imperdiet enim, pretium etiam facilisi aenean quam mauris.." },
+        
+    ])
+
   return (
 
     <div className="section-features2 spacer-t spacer-b container">
@@ -34,14 +42,11 @@ const Features2 = () => {
             <div className="features-card spacer-t4">
                 <h2>Receive payment from international bank details</h2>
                 <div className="flex-h spacer-t1">
-                    <div className="card-v">
-                        <img src="./images/features-icn-easypayments.png" alt="" />
-                        <p className="spacer-t1">Manage your payments online. Mollis congue egestas egestas fermentum fames.</p>
-                    </div>
-                    <div className="card-v">
-                        <img src="./images/features-icn-cashback.png" alt="" />
-                        <p className="spacer-t1">A elementur and imperdiet enim, pretium etiam facilisi aenean quam mauris..</p>
-                    </div>
+                    
+                    {
+                        feature2Items.map((item, index) => (<Features2Card key={index} item={item} />))
+                    }
+
                 </div>
                 <button className="btn btn-primary">Learn more <i className="fa-solid fa-arrow-right button-icon-r"></i></button>
             </div>
