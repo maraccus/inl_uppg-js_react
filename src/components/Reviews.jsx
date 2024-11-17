@@ -1,4 +1,5 @@
 import React from 'react'
+import ReviewCard from './ReviewCard'
 
 const Reviews = () => {
   return (
@@ -6,8 +7,10 @@ const Reviews = () => {
         <div className="container spacer-t spacer-b flex-row flex-sb">
             <h2>Clients are<br/> Loving Our App</h2>
             <div className="testimonials">
-                <img className="testimonial" src="./images/testimonial1.png" alt="" />
-                <img className="testimonial" src="./images/testimonial2.png" alt="" />
+
+              <ReviewCard />
+              <ReviewCard />
+
             </div>
         </div>
     </div>

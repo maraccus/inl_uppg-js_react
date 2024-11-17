@@ -402,3 +402,49 @@ li {
     }
 
 }
+
+.section-review-card {
+    width: 416px;
+    height: 329px;
+
+    background-color: #ffffff08;
+    border-radius: .6rem;
+    padding: 1.6rem;
+    margin-top: 1.8rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 0px;
+    color: var(--color-white);
+
+    p {
+        opacity: 70%;
+    }
+    .review-stars {
+        width: 88px;
+    }
+
+    .review-author {
+        display: flex;
+        gap: 1rem;
+
+        img {
+            width: 48px;
+            height: 48px;
+        }
+
+        .review-author-name {
+            opacity: 100%;
+            font-weight: 600;
+        }
+
+        .review-author-position {
+            font-size: 14px;
+        }
+        
+    }
+}
